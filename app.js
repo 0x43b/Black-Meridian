@@ -227,6 +227,11 @@
         ? `<div class="locked-note">Evidence package remains sealed until this page action is complete.</div>`
         : "";
 
+    const pageLinks = page.links || (page.bookLink ? [page.bookLink] : []);
+    const linkBlock = pageLinks.length
+      ? `<div class="action-row archive-links">${pageLinks.map(link => `<a class="${escapeHtml(link.className || "primary-btn")}" href="${escapeHtml(link.href || "#")}">${escapeHtml(link.label || "OPEN FILE")}</a>`).join("")}</div>`
+      : "";
+
     return `
       <div class="page-inner" data-page-id="${page.id}" data-side="${side}">
         <p class="page-kicker">${escapeHtml(page.kicker || "CLASSIFIED")}</p>
@@ -238,6 +243,7 @@
         ${audio}
         ${puzzle}
         ${collect}
+        ${linkBlock}
       </div>
     `;
   }
