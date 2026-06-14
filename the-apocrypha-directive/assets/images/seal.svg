@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#030404"/>
+  <g transform="translate(400 400)">
+    <path d="M0-315 273-158 273 158 0 315-273 158-273-158Z" fill="none" stroke="#b01624" stroke-width="10"/>
+    <circle r="235" fill="none" stroke="#8bf5b5" stroke-opacity=".55" stroke-width="3"/>
+    <circle r="185" fill="none" stroke="#e6e0d2" stroke-opacity=".32" stroke-dasharray="14 13" stroke-width="3"/>
+    <path d="M-280 0C-170-135 170-135 280 0C170 135-170 135-280 0Z" fill="none" stroke="#e6e0d2" stroke-width="9"/>
+    <circle r="78" fill="none" stroke="#ff2b35" stroke-width="10"/>
+    <circle r="22" fill="#ff2b35"/>
+    <path d="M0-360V-260M0 260V360M-360 0H-260M260 0H360" stroke="#8bf5b5" stroke-width="4"/>
+    <text y="330" text-anchor="middle" fill="#8bf5b5" font-size="38" font-family="monospace" letter-spacing="8">43-B</text>
+  </g>
+</svg>

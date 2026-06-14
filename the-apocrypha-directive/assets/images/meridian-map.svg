@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1000" height="620" fill="#06100c"/>
+  <g stroke="#8bf5b5" stroke-width="1" opacity=".14">
+    <path d="M0 60h1000M0 120h1000M0 180h1000M0 240h1000M0 300h1000M0 360h1000M0 420h1000M0 480h1000M0 540h1000"/>
+    <path d="M80 0v620M160 0v620M240 0v620M320 0v620M400 0v620M480 0v620M560 0v620M640 0v620M720 0v620M800 0v620M880 0v620M960 0v620"/>
+  </g>
+  <path d="M122 293c70-30 88-74 170-60 59 10 75 61 138 44 65-18 82-87 156-80 85 8 104 101 190 91 54-6 93-50 129-90" fill="none" stroke="#e6e0d2" stroke-width="3" opacity=".38"/>
+  <g filter="url(#glow)">
+    <circle cx="202" cy="258" r="8" fill="#ff2b35"/><circle cx="430" cy="278" r="8" fill="#ff2b35"/><circle cx="586" cy="197" r="8" fill="#ff2b35"/><circle cx="774" cy="288" r="8" fill="#ff2b35"/>
+    <path d="M202 258 430 278 586 197 774 288" fill="none" stroke="#ff2b35" stroke-width="2" opacity=".7" stroke-dasharray="6 8"/>
+  </g>
+  <g font-family="monospace" font-size="22" fill="#8bf5b5">
+    <text x="45" y="52">PREDICTIVE DEFENSE MAP</text>
+    <text x="715" y="570">MODEL: MERIDIAN/03</text>
+  </g>
+  <g font-family="monospace" font-size="16" fill="#e6e0d2" opacity=".7">
+    <text x="216" y="245">NODE A-17</text><text x="445" y="265">WITNESS EVENT</text><text x="600" y="186">COUP SEED</text><text x="788" y="276">MARKET PANIC</text>
+  </g>
+  <rect x="40" y="500" width="360" height="76" fill="#020303" stroke="#8bf5b5" opacity=".78"/>
+  <text x="62" y="532" fill="#e6e0d2" font-family="monospace" font-size="18">OUTPUT: PRESSURE FUTURE</text>
+  <text x="62" y="560" fill="#ff2b35" font-family="monospace" font-size="18">ETHICS FLAG: DISABLED</text>
+</svg>
