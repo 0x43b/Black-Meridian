@@ -272,11 +272,13 @@ window.BLACK_MERIDIAN_STORY = [
     kicker: "OUT-OF-STORY NODE",
     image: "assets/images/dead-drop.svg",
     body: [
-  "The first archive has been unsealed.",
-  "Book I is now available as the next restricted archive: The Apocrypha Directive.",
-  "Founder Witness access may be required for future sealed versions.",
-  "<a class='primary-btn' href='the-apocrypha-directive/'>ENTER BOOK I</a>"
-],
+      "The first archive has been unsealed.",
+      "Book I is now available as the next restricted archive: The Apocrypha Directive.",
+      "Continue only when you are ready to leave the public archive and enter the first sealed file."
+    ],
+    links: [
+      { label: "ENTER BOOK I", href: "the-apocrypha-directive/" }
+    ],
     quote: "Fund the signal. Starve the machine.",
     narration: "The archive is fiction. The curiosity is real. Build the next chapter before the signal cools.",
     hint: "Edit this page with your real support links after deployment. This node is unlocked after the final choice.",
