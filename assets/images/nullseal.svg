@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <rect width="900" height="620" fill="#030303"/>
+  <g transform="translate(450 310)">
+    <circle r="210" fill="none" stroke="#b01624" stroke-width="8" opacity=".8"/>
+    <circle r="160" fill="none" stroke="#8bf5b5" stroke-width="2" opacity=".42" stroke-dasharray="10 12"/>
+    <path d="M-170-170 170 170M170-170-170 170" stroke="#b01624" stroke-width="6" opacity=".7"/>
+    <path d="M0-230v460M-230 0h460" stroke="#e6e0d2" stroke-width="2" opacity=".18"/>
+    <text y="18" text-anchor="middle" fill="#e6e0d2" font-family="monospace" font-size="54" letter-spacing="12">NULL</text>
+    <text y="72" text-anchor="middle" fill="#ff2b35" font-family="monospace" font-size="22" letter-spacing="8">APOCRYPHA</text>
+  </g>
+  <text x="450" y="70" text-anchor="middle" fill="#8bf5b5" font-family="monospace" font-size="22" letter-spacing="8">REALITY VERIFICATION FAILURE</text>
+  <text x="450" y="574" text-anchor="middle" fill="#e6e0d2" font-family="monospace" font-size="18">TRUTH SURROUNDED UNTIL EXHAUSTION PERFORMS THE DELETION</text>
+</svg>

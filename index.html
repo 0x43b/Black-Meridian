@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050607" />
+  <meta name="description" content="BLACK MERIDIAN: The Apocrypha Directive — a gated, narrated, interactive classified dossier thriller." />
+  <title>BLACK MERIDIAN // The Apocrypha Directive // V3.1</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <main id="app" class="app-shell">
+    <section id="bootScreen" class="boot-screen" aria-label="Black Meridian entry screen">
+      <div class="boot-grid" aria-hidden="true"></div>
+      <div class="boot-card">
+        <img class="boot-sigil" src="assets/images/gravesignal-patch.svg" alt="Gravesignal patch" />
+        <p class="eyebrow">MERIDIAN ARCHIVE NODE 43-B</p>
+        <h1>BLACK MERIDIAN</h1>
+        <p class="subtitle">THE APOCRYPHA DIRECTIVE</p>
+        <div class="boot-terminal" aria-label="Archive status">
+          <p><span>STATUS:</span> UNSEALED</p>
+          <p><span>AUTHORITY:</span> UNKNOWN</p>
+          <p><span>THREAT VECTOR:</span> CIVILIAN MEMORY</p>
+          <p><span>PLAYBACK:</span> PENDING USER CONSENT</p>
+        </div>
+        <button id="beginBtn" class="primary-btn">BEGIN PLAYBACK</button>
+        <p class="fineprint">Audio unlocks after entry. Navigation unlocks through evidence, choices, logs, and solved locks.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="experience hidden" aria-label="Interactive classified dossier">
+      <aside class="hud-left">
+        <div class="hud-block">
+          <p class="hud-label">ARCHIVE</p>
+          <p id="chapterCount" class="hud-value">00 / 00</p>
+        </div>
+        <div class="hud-block">
+          <p class="hud-label">CLEARANCE</p>
+          <p id="clearance" class="hud-value">OBSIDIAN</p>
+        </div>
+        <div class="hud-block">
+          <p class="hud-label">COLLECTED</p>
+          <p id="collectedCount" class="hud-value">0</p>
+        </div>
+      </aside>
+
+      <section class="book-stage">
+        <div class="book-toolbar">
+          <button id="prevBtn" class="ghost-btn" title="Previous page">← PREV</button>
+          <button id="narrateBtn" class="ghost-btn" title="Narrate this page">NARRATE</button>
+          <button id="muteBtn" class="ghost-btn" title="Toggle audio">AUDIO ON</button>
+          <button id="resetBtn" class="ghost-btn danger" title="Reset local progress">RESET</button>
+          <button id="nextBtn" class="ghost-btn" title="Next page">NEXT →</button>
+        </div>
+        <div id="gateStatus" class="gate-status" aria-live="polite">ARCHIVE GATE: INITIALIZING.</div>
+
+        <div id="book" class="book" aria-live="polite">
+          <article id="leftPage" class="page page-left"></article>
+          <article id="rightPage" class="page page-right"></article>
+          <div id="pageTurner" class="page-turner" aria-hidden="true"></div>
+        </div>
+
+        <div class="mobile-controls">
+          <button id="mobilePrevBtn" class="ghost-btn">←</button>
+          <button id="mobileNarrateBtn" class="ghost-btn">VOICE</button>
+          <button id="mobileNextBtn" class="ghost-btn">→</button>
+        </div>
+      </section>
+
+      <aside class="hud-right">
+        <div class="hud-block evidence">
+          <p class="hud-label">EVIDENCE BOARD</p>
+          <ul id="inventory" class="inventory"></ul>
+        </div>
+        <div class="hud-block hint-block">
+          <p class="hud-label">CURRENT SIGNAL</p>
+          <p id="hintText" class="hint-text">Find the hidden trigger.</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <template id="terminalTemplate">
+    <div class="terminal-puzzle">
+      <div class="terminal-screen" data-terminal-output></div>
+      <form data-terminal-form>
+        <span class="prompt">MERIDIAN&gt;</span>
+        <input data-terminal-input autocomplete="off" spellcheck="false" aria-label="Terminal command" />
+        <button type="submit">RUN</button>
+      </form>
+    </div>
+  </template>
+
+  <audio id="ambience" src="assets/audio/ambient_loop.wav" loop preload="auto"></audio>
+  <audio id="pageTurnAudio" src="assets/audio/page_turn.wav" preload="auto"></audio>
+  <audio id="glitchAudio" src="assets/audio/glitch_hit.wav" preload="auto"></audio>
+  <audio id="beepAudio" src="assets/audio/terminal_beep.wav" preload="auto"></audio>
+  <script src="story.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
