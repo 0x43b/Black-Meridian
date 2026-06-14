@@ -272,10 +272,11 @@ window.BLACK_MERIDIAN_STORY = [
     kicker: "OUT-OF-STORY NODE",
     image: "assets/images/dead-drop.svg",
     body: [
-      "Season One ends here, but the archive structure is ready for more chapters, bonus files, hidden endings, and supporter-only drops.",
-      "Use this page for a donation terminal, creator note, mailing list, crypto tip addresses, merch links, or a password-gated bonus dossier.",
-      "Replace the placeholder support text in story.js when your domain, wallet addresses, or payment links are final."
-    ],
+  "The first archive has been unsealed.",
+  "Book I is now available as the next restricted archive: The Apocrypha Directive.",
+  "Founder Witness access may be required for future sealed versions.",
+  "<a class='primary-btn' href='the-apocrypha-directive/'>ENTER BOOK I</a>"
+],
     quote: "Fund the signal. Starve the machine.",
     narration: "The archive is fiction. The curiosity is real. Build the next chapter before the signal cools.",
     hint: "Edit this page with your real support links after deployment. This node is unlocked after the final choice.",
