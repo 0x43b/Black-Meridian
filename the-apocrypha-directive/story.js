@@ -101,7 +101,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "The website is not promoting the book. The website is the book.",
     "narration": "The archive index is open. Secure it and begin Act I.",
-    "hint": "BOOK_ONE_INDEX"
+    "hint": "BOOK_ONE_INDEX",
+    "autoUnlock": true
   },
   {
     "id": "act-one-title",
@@ -119,7 +120,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "We bury the signal before it becomes history.",
     "narration": "Act One opened. The Dead Unit. This is not a hero file. This is consequence management with names attached after the fact. Secure the act file.",
-    "hint": "ACT_I_THE_DEAD_UNIT"
+    "hint": "ACT_I_THE_DEAD_UNIT",
+    "autoUnlock": true
   },
   {
     "id": "ch01-room-without-flags",
@@ -489,7 +491,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "The machine did not become evil. It became honest about the math.",
     "narration": "Act II opened. Secure the act file.",
-    "hint": "ACT_II_MACHINE_FEAR"
+    "hint": "ACT_II_MACHINE_FEAR",
+    "autoUnlock": true
   },
   {
     "id": "ch05-vales-equation",
@@ -505,7 +508,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "A warning system is still a weapon if fear is the thing it warns with.",
     "narration": "Vale believed prevention could be purified by math. Secure her first memo.",
-    "hint": "VALE_EQUATION_MEMO"
+    "hint": "VALE_EQUATION_MEMO",
+    "autoUnlock": true
   },
   {
     "id": "ch06-predictive-peace",
@@ -614,7 +618,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "Peace is just violence with better branding.",
     "narration": "Act III opened. Secure the act file.",
-    "hint": "ACT_III_VEYR"
+    "hint": "ACT_III_VEYR",
+    "autoUnlock": true
   },
   {
     "id": "ch09-man-removed",
@@ -729,7 +734,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "There are victories that leave no enemy, no witness, and no one worth becoming afterward.",
     "narration": "Act IV opened. Secure the operation file.",
-    "hint": "ACT_IV_GLASS_PSALM"
+    "hint": "ACT_IV_GLASS_PSALM",
+    "autoUnlock": true
   },
   {
     "id": "ch13-deployment-order",
@@ -850,7 +856,8 @@ window.BLACK_MERIDIAN_STORY = [
     ],
     "quote": "The final weapon is not secrecy. It is uncertainty.",
     "narration": "Act V opened. Secure the final protocol file.",
-    "hint": "ACT_V_APOCRYPHA"
+    "hint": "ACT_V_APOCRYPHA",
+    "autoUnlock": true
   },
   {
     "id": "ch17-authorization-without-hands",
