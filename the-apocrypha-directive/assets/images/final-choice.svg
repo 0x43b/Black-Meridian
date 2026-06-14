@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
-  <rect width="900" height="620" fill="#070706"/>
-  <path d="M450 40v540" stroke="#e6e0d2" stroke-opacity=".14" stroke-width="2"/>
-  <g transform="translate(225 310)"><circle r="150" fill="none" stroke="#8bf5b5" stroke-width="6" opacity=".75"/><path d="M-80 0h160M0-80v160" stroke="#8bf5b5" stroke-width="8"/><text y="205" text-anchor="middle" fill="#e6e0d2" font-family="monospace" font-size="28">RELEASE</text></g>
-  <g transform="translate(675 310)"><circle r="150" fill="none" stroke="#b01624" stroke-width="6" opacity=".9"/><path d="M-90-90 90 90M90-90-90 90" stroke="#b01624" stroke-width="8"/><text y="205" text-anchor="middle" fill="#e6e0d2" font-family="monospace" font-size="28">BURY</text></g>
-  <text x="450" y="82" text-anchor="middle" fill="#ff2b35" font-family="monospace" font-size="28" letter-spacing="8">FINAL PAGE</text>
-</svg>
