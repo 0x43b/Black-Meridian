@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#020303"/>
+  <g transform="translate(450 450)">
+    <path d="M0-345 299-172 299 172 0 345-299 172-299-172Z" fill="none" stroke="#b01624" stroke-width="10"/>
+    <circle r="250" fill="none" stroke="#8bf5b5" stroke-width="3" stroke-opacity=".55"/>
+    <path d="M-270-40C-150-170 150-170 270-40C150 90-150 90-270-40Z" fill="none" stroke="#e6e0d2" stroke-width="8"/>
+    <circle cy="-40" r="72" fill="none" stroke="#ff2b35" stroke-width="10"/>
+    <circle cy="-40" r="20" fill="#ff2b35"/>
+    <path d="M-110 110C-50 150 50 150 110 110" fill="none" stroke="#8bf5b5" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-330 310L330-310" stroke="#ff2b35" stroke-width="14" opacity=".68"/>
+    <text y="345" text-anchor="middle" fill="#8bf5b5" font-size="36" font-family="monospace" letter-spacing="8">ROOK_NULL</text>
+  </g>
+</svg>

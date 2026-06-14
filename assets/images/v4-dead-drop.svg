@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#020303"/>
+  <defs><pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#8bf5b5" stroke-opacity=".06"/></pattern></defs>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <rect x="90" y="90" width="1020" height="720" rx="20" fill="#06100c" stroke="#8bf5b5" stroke-opacity=".3"/>
+  <text x="130" y="160" fill="#8bf5b5" font-family="monospace" font-size="34">root@meridian-43b:~$ open dead_drop</text>
+  <text x="130" y="240" fill="#e6e0d2" font-family="monospace" font-size="28">BOOK_0 ..................... COMPLETE</text>
+  <text x="130" y="300" fill="#ff2b35" font-family="monospace" font-size="28">BOOK_I ..................... RESTRICTED</text>
+  <text x="130" y="360" fill="#e6e0d2" font-family="monospace" font-size="28">WITNESS_ACCESS ............. REQUIRED</text>
+  <path d="M130 460H1070" stroke="#ff2b35" stroke-opacity=".55" stroke-dasharray="14 16"/>
+  <text x="130" y="560" fill="#8bf5b5" font-family="monospace" font-size="32">the-apocrypha-directive/</text>
+  <text x="130" y="630" fill="#e6e0d2" font-family="monospace" font-size="24">Some files are not hidden. They are waiting for a witness.</text>
+</svg>
