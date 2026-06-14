@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <rect width="900" height="620" fill="#050607"/>
+  <radialGradient id="r" cx="50%" cy="35%" r="50%"><stop offset="0" stop-color="#6b0d17"/><stop offset="1" stop-color="#050607"/></radialGradient><rect width="900" height="620" fill="url(#r)" opacity=".65"/>
+  <g transform="translate(450 310)">
+    <path d="M-125-170c70-42 180-42 250 0 30 86 18 200-2 270-48 54-93 90-123 100-30-10-75-46-123-100-20-70-32-184-2-270Z" fill="#111" stroke="#e6e0d2" stroke-opacity=".36" stroke-width="5"/>
+    <path d="M-92-38c48-28 86-26 124 0-44 16-82 16-124 0ZM92-38c-48-28-86-26-124 0 44 16 82 16 124 0Z" fill="#ff2b35" opacity=".8"/>
+    <path d="M0-150v290M-92 55c58 28 126 28 184 0" stroke="#b01624" stroke-width="5" fill="none"/>
+  </g>
+  <text x="450" y="76" text-anchor="middle" fill="#ff2b35" font-family="monospace" font-size="30" letter-spacing="8">VEYR // ASSET ERASURE</text>
+  <text x="450" y="570" text-anchor="middle" fill="#e6e0d2" font-family="monospace" font-size="20" letter-spacing="4">THE ALIAS IS THE ONLY HONEST NAME LEFT</text>
+</svg>

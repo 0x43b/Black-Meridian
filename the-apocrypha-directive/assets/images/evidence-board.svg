@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#16110c"/>
+  <g stroke="#433527" stroke-width="2"><path d="M0 64h1000M0 128h1000M0 192h1000M0 256h1000M0 320h1000M0 384h1000M0 448h1000M0 512h1000M0 576h1000"/><path d="M80 0v620M160 0v620M240 0v620M320 0v620M400 0v620M480 0v620M560 0v620M640 0v620M720 0v620M800 0v620M880 0v620M960 0v620"/></g>
+  <g fill="#201812" stroke="#e6e0d2" stroke-opacity=".24">
+    <rect x="80" y="72" width="235" height="158" rx="3"/><rect x="396" y="60" width="225" height="172" rx="3"/><rect x="698" y="98" width="205" height="144" rx="3"/>
+    <rect x="114" y="347" width="254" height="174" rx="3"/><rect x="460" y="330" width="300" height="188" rx="3"/>
+  </g>
+  <g stroke="#b01624" stroke-width="4" opacity=".72"><path d="M315 151 396 146M621 146 698 170M202 230 241 347M508 232 250 347M800 242 610 330M368 434 460 424"/></g>
+  <g fill="#050505"><rect x="104" y="108" width="160" height="17"/><rect x="420" y="102" width="138" height="17"/><rect x="724" y="139" width="118" height="17"/><rect x="144" y="389" width="184" height="17"/><rect x="486" y="370" width="220" height="17"/></g>
+  <g font-family="monospace" fill="#e6e0d2" font-size="20"><text x="96" y="94">OFFICIAL REPORT</text><text x="412" y="86">WITNESS</text><text x="716" y="124">AUDIO</text><text x="130" y="376">ROOK NOTES</text><text x="476" y="358">MERIDIAN OUTPUT</text></g>
+  <g fill="#8bf5b5" font-family="monospace" font-size="17" opacity=".8"><text x="124" y="178">NO INCIDENT</text><text x="430" y="180">THEY LIED</text><text x="724" y="206">[SCREAM CUT]</text><text x="152" y="466">SUCCESS ≠ SURVIVAL</text><text x="486" y="450">PUBLIC MEMORY: CLEAN</text></g>
+</svg>
